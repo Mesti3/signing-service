@@ -1,0 +1,6 @@
+services:
+  signing:
+    container_name: sogning-service
+    build: .
+    ports:
+      - '8000:8000'
