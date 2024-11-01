@@ -16,8 +16,6 @@ type Signer interface {
 	Sign(dataToBeSigned []byte) ([]byte, error)
 }
 
-// TODO: implement RSA and ECDSA signing ...
-
 type RSASigner struct {
 	privateKey *rsa.PrivateKey
 }

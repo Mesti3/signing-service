@@ -10,9 +10,8 @@ import (
 
 const (
 	ListenAddress = ":8080"
-	// TODO: add further configuration parameters here ...
-	apis2 = "/api/v0/devices"
-	apis1 = "/api/v0/devices/list"
+	apis2         = "/api/v0/devices"
+	apis1         = "/api/v0/devices/list"
 )
 
 func main() {

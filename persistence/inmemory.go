@@ -1,7 +1,5 @@
 package persistence
 
-// TODO: in-memory persistence ...
-
 import (
 	"errors"
 	"sync"

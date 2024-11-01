@@ -37,8 +37,6 @@ func (s *Server) Run() error {
 
 	mux.Handle("/api/v0/health", http.HandlerFunc(s.Health))
 
-	// TODO: register further HandlerFuncs here ...
-
 	deviceHandler := NewDeviceHandler(s.store)
 
 	mux.Handle("/api/v0/devices", http.HandlerFunc(deviceHandler.CreateDevice))

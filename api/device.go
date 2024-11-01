@@ -1,6 +1,5 @@
 package api
 
-// TODO: REST endpoints ...
 import (
 	"crypto/ecdsa"
 	"crypto/rsa"
